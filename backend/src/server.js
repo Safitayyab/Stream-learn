@@ -8,6 +8,7 @@ const PORT = process.env.PORT;
 import authRoutes from "./routes/auth.route.js";
 import userRoutes from "./routes/user.route.js";
 import { connectDB } from "./lib/db.js";
+import chatRoutes from "./routes/chat.route.js";
 
 app.use(express.json());
 app.use(cookieParser());
